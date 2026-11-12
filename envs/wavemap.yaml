@@ -1,0 +1,11 @@
+name: wavemap
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy=1.23.5
+  - pip<25
+  - setuptools<70
+  - wheel
+  - pip:
+      - -r wavemap-requirements.txt

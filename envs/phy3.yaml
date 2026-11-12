@@ -1,0 +1,13 @@
+name: phy3
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  # Keep the Conda layer minimal and cross-platform. Phy's Python package
+  # declares its own compatible GUI and scientific-computing dependencies.
+  - python=3.12
+  - pip
+  - pip:
+      - phy==2.1.0
