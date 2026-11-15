@@ -1,6 +1,6 @@
 # Cholinergic NAc adaptation — processed spike data
 
-This repository shares processed spike times rather than the original raw `.dat` recordings. The files documented below are sufficient to inspect the single-unit spike trains, locate the optotagged cells, and reproduce the laser-aligned raster plots.
+This repository shares processed spike times. The files documented below are sufficient to inspect the single-unit spike trains, locate the optotagged cells, and reproduce the laser-aligned raster plots.
 
 ## Data files
 
